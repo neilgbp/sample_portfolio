@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil Patel | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0ea5e9;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+        header p {
+            color: var(--accent);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+        p, li {
+            color: var(--text-secondary);
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            list-style: none;
+        }
+        .skills-grid li {
+            background: #334155;
+            color: var(--text-primary);
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            border-top: 1px solid #334155;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Neil Patel</h1>
+            <p>10th Grade Student & Tech Enthusiast | North Springs High School</p>
+        </header>
+
+        <section>
+            <h2>Professional Bio</h2>
+            <p>Motivated 10th-grade student at North Springs High School with a strong aptitude for technology and hands-on experience in summer research programs. Passionate about exploring the intersection of life sciences and innovation, with a keen interest in pursuing a future career in biotechnology. Eager to apply analytical skills and technical curiosity to solve complex problems in modern science.</p>
+        </section>
+
+        <section>
+            <h2>Skills & Competencies</h2>
+            <ul class="skills-grid">
+                <li>Basic scientific research methods</li>
+                <li>Technology & hardware troubleshooting</li>
+                <li>Data collection and analysis</li>
+                <li>Problem-solving & critical thinking</li>
+                <li>Academic writing & documentation</li>
+                <li>Collaboration & team projects</li>
+                <li>Algorithmic thinking & logic</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Industry Focus: AI in Biotech</h2>
+            <p>Artificial intelligence accelerates biotechnology by rapidly analyzing massive genomic datasets to predict protein structures and optimize drug discovery pathways. Machine learning models also streamline biomanufacturing processes by monitoring bioreactor conditions in real time to maximize yield and purity.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Neil Patel. Hosted with GitHub Pages.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
